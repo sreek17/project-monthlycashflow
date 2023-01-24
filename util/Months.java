@@ -1,0 +1,1 @@
+package cashflowcalculations.util;public enum Months {	JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMEBER, DECEMBER;	public static boolean findByName(String name) {		for (Months month : values()) {			if (month.name().equalsIgnoreCase(name)) {				return true;			}		}		return false;	}}

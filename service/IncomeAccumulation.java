@@ -1,0 +1,1 @@
+package cashflowcalculations.service;public interface IncomeAccumulation {	public double findTotalIncome();}

@@ -1,0 +1,1 @@
+package cashflowcalculations.model;public class Revenue extends CashFlow {	public Revenue(String category, double amount) {		super(category, amount);	}	public Revenue() {		super();	}}

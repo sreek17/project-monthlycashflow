@@ -1,0 +1,1 @@
+package cashflowcalculations.test;import org.junit.Assert;import org.junit.Test;import cashflowcalculations.util.Months;public class MonthsTest {	@Test	public void findByNameTest() {		boolean validMonth = Months.findByName("September");		Assert.assertEquals(true, validMonth);	}}
